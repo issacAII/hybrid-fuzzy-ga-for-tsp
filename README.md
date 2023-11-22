@@ -11,7 +11,7 @@ By sum up the travel distance that identified from the distance matrix, the enti
 
 The fuzzy logic system is converting the fitness value into fuzzy input through fuzzification. In general, this fuzzy logic controller will provide the value of population number, crossover rate and mutation rate adapted from different degree of fitness value at each generation. For the inference rules, the input is contracting with the outputs. For examples, if the fitness value is low, the population size, crossover rate and mutation rate will be high. If the fitness value is medium then the population size, crossover rate and mutation rate will also be medium. By going through the inference rules and defuzzification, the output crisp value can used to estimate the size of the population that is needed to find an optimal solution. With fuzzy logic, the crossover rate can be adapted across the generation. This allows for more precise control over the amount of genetic information that is exchanged between the parents. Also with fuzzy logic, mutation can be performed by introducing changes with different probabilities, allowing for more precise control over the amount of change introduced.
 
-After the defined generation number is reached, the hybrid algorithm will stop and show the found shortest distance and route.
+After the defined iteration number is reached, the hybrid algorithm will stop and show the found shortest distance and route.
 
 ## Testing
 There are some variables need to be defined before algorithm run:
